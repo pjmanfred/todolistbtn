@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+:root{
+    background-color: blue;
+    
+    margin: 100;
+
+}
+
+.container {
+   text-align: center;
+    display: block;
+    background-color: aqua;
+    padding: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+
+    
+}
+.todo-list{
+    display:auto;
+    justify-content: space-between;
+    text-align: center;
+}
+form{
+    display: -webkit-inline-flex;
+    align-items: center;
+}
+button{
+   
+  color: blueviolet;
+  float:auto;
+}
+
+.list-container button{
+      
+    color: brown;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.list-container {
+    /*text-align: center*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#boton{
+    margin-left: 30px;
+    display: inline-block;
+    width: 120px;
+}
